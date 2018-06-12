@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url('https://fonts.googleapis.com/css?family=Exo|Questrial');
+
+body {
+    text-align: center;
+    background-color: #7B68EE;
+}
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    cursor: pointer;
+}
+span{
+  color:  #ff1a1a;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Exo', sans-serif;
+    cursor: pointer;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-family: 'Exo', sans-serif;
+    cursor: pointer;
+}
+
+table,
+tr,
+td {
+    border: 1px solid hsl(0, 70%, 0%);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+form {
+     font-family: 'Questrial', sans-serif;
+    
+}
+.box {
+    height:30px;
+    padding:2px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#submit {
+    border:1px solid rgba(243,42,42,0.8);
+    box-shadow:0 1px 2px #ccc;
+    background: #4682B4;
+    display:inline;
+    height:30px;
+    width: 60px;
+    color: #F08080;
+    border-radius:5px;
+    font-family: 'Exo', sans-serif;
+    cursor:pointer;
+    transition:0.3s all ease-in-out;
+}
+
+#submit:hover {
+    background:#fff;
+    color:rgba(243,42,42,0.8);
+}
+.grid_form {
+    font-size:18px;
+    font-weight:normal;
+    color:#333;
+}
+.col_pic {
+    border-radius:100%;
+    width:40px;
+    height:40px;
+    padding:3px;
+    box-shadow:0 0 5px #444;
+    border:none;
+    background:#fff;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #2F4F4F;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000080;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.page-footer{
+   position: fixed;
+   font-size: 20px;
+   border-top: solid;
+   border-top-width : 0.5px;
+   border-radius: 2px;
+   bottom: 0px;
+   width: 100%;
+   background-color: #7B68EE;
+   color: white;
+ font-family: 'Exo 2', sans-serif;
+
+}
